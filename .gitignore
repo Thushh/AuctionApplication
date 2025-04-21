@@ -396,3 +396,26 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test-related
+*.testresult
+coverage/
+test-results/
+
+# Build artifacts
+*.tgz
+*.zip
+
+# ASP.NET HTTPS certificates
+*.pem
+*.key
+*.crt
