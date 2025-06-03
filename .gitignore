@@ -419,3 +419,7 @@ test-results/
 *.pem
 *.key
 *.crt
+.next/
+node_modules/
+*.log
+.env
