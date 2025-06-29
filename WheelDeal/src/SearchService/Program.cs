@@ -14,7 +14,7 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseAuthorization();
-
+// Enable CORS for all origins, methods, and headers
 app.MapControllers();
 
 app.Lifetime.ApplicationStarted.Register(async () =>
